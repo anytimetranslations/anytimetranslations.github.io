@@ -26,10 +26,11 @@
     
     		<div class="center" style="width:400px;margin-bottom:70px;">
     
-          <!-- accept-charset="UTF-8" -->
           <form action="http://getsimpleform.com/messages?form_api_token=d3ddabdfd7902f95f4410268b03ccd9b" method="post">
             
-            
+            <input type='hidden' name='redirect_to' value='http://www.google.com' />
+			
+			<!--
       
       			<div class="right" style="width: 300px;"><input class="border field" name="nome" maxlength="50" tabindex="1" type="text" /></div>
       			<div class="right label">Nome:</div>
@@ -43,15 +44,17 @@
       
       			<div class="right" style="width: 300px;"><input class="border field" name="email" maxlength="80" tabindex="5" type="text" /></div>
       			<div class="right label">E-mail:</div>
-      
-      			<div class="right" style="width: 300px;height:100px;"><textarea class="border field" cols="40" name="mensagem" rows="20" style="height:100px;" tabindex="6" onKeyDown="textCounter(this.form.mensagem,this.form.remLen,500);" onKeyUp="textCounter(this.form.mensagem,this.form.remLen,500);"></textarea></div>
+-->      
+      			<div class="right" style="width: 300px;height:100px;"><textarea class="border field" cols="40" name="message" rows="20" style="height:100px;" tabindex="6" onKeyDown="textCounter(this.form.mensagem,this.form.remLen,500);" onKeyUp="textCounter(this.form.mensagem,this.form.remLen,500);"></textarea></div>
+
+
+
       			<div class="right label">Mensagem:</div>
   
       			<div style="clear:right;"></div>
   
             <div class="right" style="margin-top:17px;width: 300px;height:100px;position:relative;font-size:10px;text-align:right;"><span id="chars">0</span> caracteres digitados (m&aacute;ximo 500)<br>
             <input class="submit" type="submit" value="Enviar" />
-            
             </div>
   
     			</form>
