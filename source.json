@@ -1,0 +1,12 @@
+{
+    "DistributionId": "E3U5HWYXSXPDGG", 
+    "InvalidationBatch": {
+        "Paths": {
+            "Quantity": 1, 
+            "Items": [
+                "/*.html"
+            ]
+        }, 
+        "CallerReference": "InvalidateIt!"
+    }
+}
